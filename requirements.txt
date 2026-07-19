@@ -1,0 +1,3 @@
+SDL2/3 ( graphics framework to show the image ) 
+Pillow ( for converting png and jpeg into PPM P6 might need to make a virtual env if you use macOS ) 
+
