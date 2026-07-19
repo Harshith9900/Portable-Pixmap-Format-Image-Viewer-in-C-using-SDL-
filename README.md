@@ -35,8 +35,7 @@ in your terminal after converting your png/jpeg image into ppm .
 ## How to Build and Run
 
 This project also includes `Makefile` to handle the compilation process without needing to attach headerfiles of sdl2 .
-
-( note: this Makefile only works for macOS due to use of pkgconfig sorry about that ) 
+( can use it any OS now ) 
 
 1. Clone this repository to your local machine.
 2. Open your terminal in the project directory.
