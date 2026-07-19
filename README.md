@@ -1,11 +1,10 @@
 # PPM Image Viewer
 
 PPM stands for Portable Pixmap Format and comes in two formats P6 and P3 .
+P6 stands for raw binary which we want since each colour would be 8 bits and total of 24 bits which perfectly matches with SDL graphics framework which I used .
 
-P6 stands for raw binary which we want since each colour would be 8 bits and total of 24 bits which perfectly matches with SDL graphics framework
 This is a very lightweight, custom built image viewer written entirely in raw C.
-
-This program parses raw binary data from a P6 `.ppm` image file and renders the pixels to the screen using the SDL2 graphics framework.
+This program parses raw binary data from a P6 `.ppm` image file and renders the pixels to the screen using the SDL2 graphics framework as I have mentioned . 
 
 ## Features
 * **Custom Binary Parser:** Reads header data and extracts raw RGB pixel bytes directly from memory without relying on heavy external libraries.
