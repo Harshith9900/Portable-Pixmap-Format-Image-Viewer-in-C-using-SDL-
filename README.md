@@ -20,7 +20,12 @@ python3 -m venv .venv
 source .venv/bin/activate
 pip3 install Pillow
 ```
-I have already written a conversion.py you can use it then you can later type deactivate and rm -rf .venv in your terminal after converting your png/jpeg image into ppm . 
+I have already written a conversion.py you can use it then you can later type 
+``` bash
+deactivate
+rm -rf .venv
+```
+in your terminal after converting your png/jpeg image into ppm . 
 
 ## How to Build and Run
 
