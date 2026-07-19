@@ -20,7 +20,12 @@ python3 -m venv .venv
 source .venv/bin/activate
 pip3 install Pillow
 ```
-I have already written a conversion.py you can use it then you can later type 
+I have already written a conversion.py you can use it as ( for macOS ) 
+``` bash
+python3 conversion.py
+```
+
+then you can later type 
 ``` bash
 deactivate
 rm -rf .venv
